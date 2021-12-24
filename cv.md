@@ -24,4 +24,31 @@ But today when my financial situation more better and a have many familiar it th
 - JavaScript(a little bit theory)
 
 ---
+##Code example:##
+
+**Multiply KATA from Codewars** This code does not execute properly.Try to figure out why.
+
+```
+function multiply(a, b){
+ return a * b
+}
+```
+
+***
+
+##Courses:##
+
+* Html and Css Tutorials on [Freecodecamp](https://www.freecodecamp.org/Lebroniki)(completed)
+* JavaScript Algorithms and Data Structures on [Freecodecamp](https://www.freecodecamp.org/Lebroniki) (completed 92 from 113 tutorials)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+***
+
+##Languages:##
+
+* English - Intermediate/Upper-intermediate(according to the online test [EFSET](https://www.efset.org/)) I'm scored 85%
+
+* Russian - Native
+
+* Polish Intermediate (Reсeived card Polish man)
 
