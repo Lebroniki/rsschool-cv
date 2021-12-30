@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="icon" href="assets/img/fav.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
+    <div class="test">
     <header class="header">
         <div class="container">
             <nav class="nav">
@@ -27,7 +28,7 @@
         </div>
     </header>
     <main class="main" class="main-container">  
-       <div class="container">
+        <div class="container">
         <section class="section section-flex-profile"  id="profile">
             <img class="imgprofile" src="assets/img/my.jpg" alt="my-picture">
             <div class="mytitle">
@@ -35,8 +36,9 @@
                  <h3 class="subtitle">junior front end developer</h3>
                 </div>
         </section>
+        <div class="div-flex">
         <section class="section" id="Contacts">
-            <h2 class="contacts">
+            <h2 class="contacts padding">
                Contacts 
             </h2>
             <ul class="list-contact">
@@ -47,8 +49,8 @@
             </ul>
         </section>
         <section class="section" id="About">
-            <h2 class="about">About me</h2>
-            <p>
+            <h2 class="about padding">About me</h2>
+            <p class="padding p-maxwidth">
                 I’m working today like a barber. I do it 5 years. But 5-ve years ago 
                 I had choice try study Barbering or Frontend but then i even didn’t know that this profession called in this way. 
                 I’m just had thinking that today more and more businesses need they own sites. I’m started interested this . 
@@ -59,8 +61,10 @@
                  I would like try do it! but already today I don’t have many time.
                 </p>
         </section>
+        </div>
+        <div class="div-flex">
         <section class="section" id="Skills">
-            <h2 class="skills">Skills</h2>
+            <h2 class="skills padding">Skills</h2>
             <ul>
                 <li>HTML5 , CSS3</li>
                 <li>JavaScript(a little bit theory)</li>
@@ -68,30 +72,41 @@
             
         </section>
         <section class="section" id="Code">
-            <h2 class="code">Code</h2>
-            <pre>
+            <h2 class="code padding">Code</h2>
+            <pre class="margin-left">
                 function multiply(a, b){
                     return a * b
                    }
             </pre>
         </section>
-        <section class="section" id="Courses">
-            <h2 class="courses">Courses</h2>
+    </div>
+    <div class="div-flex">
+         <section class="section" id="Courses">
+            <h2 class="courses padding">Courses</h2>
             <ul>
-                <li>Html and Css Tutorials on <a href="https://www.freecodecamp.org/Lebroniki" target="_blank">Freecodecamp</a>(completed)</li>
-                <li>JavaScript Algorithms and Data Structures on<a href="" target="_blank">Freecodecamp</a> (completed 92 from 113 tutorials)</li>
+                <li>Html and Css Tutorials on <a class="link-courses" href="https://www.freecodecamp.org/Lebroniki" target="_blank">Freecodecamp</a>(completed)</li>
+                <li>JavaScript Algorithms and Data Structures on<a class="link-courses" href="" target="_blank">Freecodecamp</a> (completed 92 from 113 tutorials)</li>
                 <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
             </ul>
         </section>
         <section class="section" id="Languages">
-            <h2 class="languages"></h2>
+            <h2 class="languages padding">Languages</h2>
+            <ul class="ul-languages">
+                <li>English - Intermediate/Upper-intermediate(according to the online test <a class="link-courses" href="https://www.efset.org/" target="_blink">EFSET</a>) I'm scored 85%</li>
+                <li>Russian - Native</li>
+                <li>Polish Intermediate (Reсeived card Polish man)</li>
+            </ul>
         </section>
+        </div>
     </div>
 </main>
 <footer class="footer">
-    <div class="container">
-        
+    <div class="container footer-flex">
+        <a href="https://github.com/Lebroniki" target="_blank"><img style="max-width:200px; max-height:200px;"src="assets/img/Octocat.png" alt="my-github"></a>
+        <p class="created-year">2021</p>
+        <a href="https://rs.school/js-stage0"target="_blank" ><img src="assets/img/rsschool.png" alt="rs-school"></a>
     </div>
 </footer>
+</div>
 </body>
 </html>

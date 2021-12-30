@@ -7,6 +7,7 @@ html {
 
 body{
    font-family: 'Merriweather', serif;
+   color:#a29798;
    min-height: 100vh;
    margin:0;
    padding: 0;
@@ -17,18 +18,28 @@ body{
 }
 /*font-family: 'Roboto Mono', monospace;*/
 .header{
-   border:1px solid red;
-   background-color: khaki;
+   
+   background-color: #829985;
 }
 .main{
-   border:1px solid red;
+  
+   padding-top:45px;
 }
 .main-container{
    display:flex;
    flex-wrap: wrap;
 }
+.list-contact li{
+   padding-bottom:50px;
+   
+}
+.list-contact li a{
+   text-decoration: none;
+   color:#a29798;
+}
 .section{
    width:50%;
+   margin: 0 auto;
    
 }
 @media (max-width: 768px) {
@@ -36,9 +47,7 @@ body{
      width: 100%;
    }
  }
-.footer{
-   border:1px solid red;
-}
+
 .container {
    max-width: 1440px;
    margin: 0 auto;
@@ -55,9 +64,15 @@ body{
    padding:0 20px;
    line-height: 50px;
    text-decoration: none;
-   color:darkcyan;
+   color:#ffffff;
    transition: color .3s;
 }
+.link-courses{
+   
+   color:#829985;
+
+}
+
 .nav-link:hover{
    color:darkgray;
    text-decoration: underline;
@@ -77,4 +92,53 @@ body{
    justify-content: space-around;
    width:100%;
 
+}
+.div-flex{
+   display: flex;
+   padding-left: 195px;
+   
+}
+.padding{
+   padding-left: 20px;
+}
+.margin-left{
+   margin-left: -93px;
+}
+.mytitle{
+   margin-top: 52px;
+    position: relative;
+    right: 80px;
+}
+.p-maxwidth ,.ul-languages{
+   max-width: 75%;
+}
+.myname, .contacts, .about , .skills , .code , .courses , .languages {
+   color:#829985;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-flex{
+   display:flex;
+   justify-content: space-around;
+   padding-top: 40px;
+}
+.created-year{
+   font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
 }
