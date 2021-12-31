@@ -16,7 +16,7 @@ body{
    justify-content: space-between;
    
 }
-/*font-family: 'Roboto Mono', monospace;*/
+
 .header{
    
    background-color: #829985;
@@ -115,23 +115,6 @@ body{
 .myname, .contacts, .about , .skills , .code , .courses , .languages {
    color:#829985;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer-flex{
    display:flex;
